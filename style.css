@@ -1,0 +1,133 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f2f6fc;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ffffff, #e6f0ff);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #dde9ff;
+}
+
+header h1 a {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #003399;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Navigation */
+nav {
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+nav button {
+  background-color: #0056d2;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #0041a3;
+}
+
+/* Main Section */
+main {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.7rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #003399;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+/* Button Grid */
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button-grid button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.button-grid button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #f4f7ff;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 4rem;
+  border-top: 1px solid #ccc;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #0056d2;
+}
